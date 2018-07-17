@@ -1,0 +1,15 @@
+\b\d*x+(\d{4}).*(?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2}).*POS\s?(.*?)\s?at\s?\+?(.*?)\+?txn  SBI  DEBIT_CARD  DEBITED  NO
+\bTransaction of (?:INR|Rs)[\.\s]*([\d,]*\.?\d{1,2}).*Credit Card XX(\d{4}) at (.*) on (.*).  SBI  CREDIT_CARD  DEBITED  NO
+\b(?:INR|Rs)[\.,\s]?([\d,]*\.?\d{2}),.*X+(\d{4}).*due on (\d{2}-\S{3}-\d{2})  SBI  CREDIT_CARD_BILL  DEBITED  NO
+\b(?:INR|Rs)[\.,\s]*?([\d,]*\.?\d{0,2})[\s+]*withdrawn[\s+]*from.*x+\s*(\d{4}).*?at[\s+]*(.*?)\..*Avl[\s+]*bal[\s+]*(?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2})  SBI  DEBIT_ATM  DEBITED  NO
+\bamt due of (?:INR|Rs)[\.,\s]?([\d,]*\.?\d{2}).*payable by ([\d\/]*)  SBI  CREDIT_CARD_BILL  DEBITED  NO
+\bInternet Banking.*Transaction (Ref No \S*) for (?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2})  SBI  NET_BANKING  DEBITED  NO
+\bX+\d+(\d{4}) Debited (?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2}).*\-(.*?)\s*\.\s*(?:Avl|Dbt) Bal.*?(?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2})  SBI  NET_BANKING  DEBITED  NO
+\b\d*x+(\d{4}).*(?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2}).*ATM\s?(.*?)\s?at\s?\+?(.*?)\+? with txn  SBI  DEBIT_ATM  DEBITED  NO
+\b(?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2})\s*withdrawn at.*?atm.*on (?:\d+)\s*at (.*?)\..+\.Avl bal (?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2})\.  SBI  DEBIT_ATM  DEBITED  NO
+\b(?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2}) debit.*x+\s*(\d{4}).*atm \w{13} (.+) for.*txn.*\.avl bal (?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2})  SBI  DEBIT_ATM  DEBITED  NO
+\b(?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2})\s*debit.*x+\s*(\d{4}).*atm \w{13}\s*(.*)\s*for.*txn  SBI  DEBIT_ATM  DEBITED  NO
+\bdebit card for withdrawing (?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2}).*on (atm \S+) using card.*x+(\d{4}) with txn  SBI  DEBIT_ATM  DEBITED  NO
+\bdebit card for withdrawing (?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2}).*on (atm \S+) with txn  SBI  DEBIT_ATM  DEBITED  NO
+\b(service txn) of (?:INR|Rs)[\.,\s]*([\d,]*\.?\d{0,2}).*debit card.*x+(\d{4}).*at (.*) with txn  SBI  DEBIT_ATM  DEBITED  NO
+\bx*\d*(\d{4}) credited (?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2}) on .* (?:avl|dbt) bal (?:INR|Rs)[\.:,\s]*([\d,]+\.?\d{0,2})  SBI  CREDIT  CREDITED  NO

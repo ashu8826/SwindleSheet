@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SwindleSheet</string>
+    <string name="facebook_application_id" translatable="false">1034383636719247</string>
+
+    <string name="facebook_app_id">1034383636719247</string>
+    <string name="fb_login_protocol_scheme">fb1034383636719247</string>
+
+
+    <string name="action_exit">Exit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logout">Logout</string>
+    <string name="refresh">Refresh Data</string>
+    <string name="Unconstruction">Under Construction</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_google_maps">Map</string>
+
+    <string name="unpaidnon">Set Reminder</string>
+    <string name="paid">Paid Bills</string>
+    <string name="cur_reminders">Current Reminders</string>
+    <string name="title_activity_personal_map">Expense</string>
+
+    <string name="expenditure">Show Expenditure</string>
+    <string name="billsnav">Bill options</string>
+    <string name="location_based_expense">Expense Location</string>
+    <string name="sumstate">Summary Statistics</string>
+
+
+    <string-array name="names">
+        <item>All Time </item>
+        <item>Last Month </item>
+        <item>Current Month </item>
+    </string-array>
+    <string name="billspend">Bill Spending </string>
+    <string name="otherspend">Other Spending </string>
+    <string name="totalspend">Total Spending </string>
+
+    <string name="sender"> Bank :</string>
+    <string name="ttype"> Transaction type :</string>
+    <string name="amt"> Amount :</string>
+    <string name="sms_date"> Expense Date :</string>
+    <string name="body"> Body :</string>
+    <string name="title_activity_summary_statistics">Summary Statistics</string>
+    <string name="privacy_policy">https://privacypolicies.com/privacy/view/5188ccbf06cc5f8fbb35ae3ca65c30b4</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_unpaidnonrec"
+    android:enabled="true"
+    android:icon="@drawable/ic_access_time_white_24dp"
+    android:title="@string/unpaidnon"
+    app:showAsAction="ifRoom" />
+<item
+    android:id="@+id/action_paid"
+    android:enabled="true"
+    android:icon="@drawable/ic_favorite_white_24dp"
+    android:title="@string/paid"
+    app:showAsAction="ifRoom" />
+<item
+    android:id="@+id/action_unpaid"
+    android:enabled="true"
+    android:icon="@drawable/ic_audiotrack_white_24dp"
+    android:title="@string/cur_reminders"
+    app:showAsAction="ifRoom" />
+</menu>

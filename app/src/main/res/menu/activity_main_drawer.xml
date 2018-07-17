@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/refresh"
+            android:icon="@drawable/ic_cached_black_24dp"
+            android:title="@string/refresh" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="@string/expenditure"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="@string/billsnav" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="@string/location_based_expense" />
+    </group>
+
+    <item android:title="Functions">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_functions_black_24dp"
+                android:title="@string/sumstate" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout_black_24dp"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>
