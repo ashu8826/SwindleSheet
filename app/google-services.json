@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "868642316310",
+    "firebase_url": "https://fir-basic-15888.firebaseio.com",
+    "project_id": "fir-basic-15888",
+    "storage_bucket": "fir-basic-15888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868642316310:android:24b364230a290bf7",
+        "android_client_info": {
+          "package_name": "com.adobe.swindlesheet.swindlesheetmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868642316310-0o03okvd0nvvlp8tvvfr1r7lk6nlpjo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adobe.swindlesheet.swindlesheetmobile",
+            "certificate_hash": "e27c72142a0125ba689f136153d19a3d1567c2ae"
+          }
+        },
+        {
+          "client_id": "868642316310-ckvidvngdbgqnq2ra960vfs9fegf2rab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6k3blLZFKDXK4IkAYQ1AgtJQ-ZluLtW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868642316310-ckvidvngdbgqnq2ra960vfs9fegf2rab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868642316310:android:85b1f1141607be15",
+        "android_client_info": {
+          "package_name": "com.iiitd.swindlesheet.swindlesheetmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868642316310-i4isr2jipprt0g0q9i71jgn34q3p6aki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iiitd.swindlesheet.swindlesheetmobile",
+            "certificate_hash": "e27c72142a0125ba689f136153d19a3d1567c2ae"
+          }
+        },
+        {
+          "client_id": "868642316310-ckvidvngdbgqnq2ra960vfs9fegf2rab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6k3blLZFKDXK4IkAYQ1AgtJQ-ZluLtW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868642316310-ckvidvngdbgqnq2ra960vfs9fegf2rab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
