@@ -5,7 +5,8 @@ This is an loaction based expense management app which does not need any user in
 ## To build on you system
 -install latest android studio and rest requirment android studio will install.
 -and send below keys to mentioned email address.
-###Facebook integration steps:
+
+### Facebook integration steps:
 	1. Generate Key hash
 	For Windows user, type this on cmd : 
 		Requirment for below command 
@@ -21,7 +22,7 @@ This is an loaction based expense management app which does not need any user in
 
 	2. Mail the generated key hash to ashutosh16012@iiitd.ac.in
 
-###Google Maps Api and firebase integration:
+### Google Maps Api and firebase integration:
 	1. Generate SHA-1 fingerprint
 	For Windows user
 		1. type this on cmd : keytool -exportcert -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
