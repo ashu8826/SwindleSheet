@@ -1,7 +1,0 @@
-Important Things and Proposed Features to do
---------------------------------------------
-1. Make app work properly only Mi devices
-2. Modularize the code
-3. add Firebase cloud database for storing and processing data.
-4. add more regex for correct parsing of SMS.
-5. Publish app on Google PlayStore.
